@@ -15,7 +15,7 @@ function About() {
     >
       <div className="flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
         <div>
-          <div className="w-[400px] h-full pb-20">
+          <div className="sm:w-[400px] h-full pb-20">
             <img
               src={aboutImg}
               alt="about"
@@ -51,15 +51,15 @@ function About() {
             speaking <span>language</span> :
           </div>
 
-          <div className="flex mt-6 items-center sm:justify-start justify-center gap-7 pl-3">
-            <div className="bg-[#333333]/40 p-5 rounded-lg">
+          <div className="flex flex-col sm:flex-row mt-6 items-center sm:justify-start justify-center gap-7 pl-3">
+            <div className="bg-[#333333]/40 p-5 rounded-lg w-[113px]">
               <h3 className="md:text-4l text-2l  text-white">Fluent</h3>
               <p>
                 <span className=" text-xl">English</span>
               </p>
             </div>
 
-            <div className="bg-[#333333]/40 p-5 rounded-lg">
+            <div className="bg-[#333333]/40 p-5 rounded-lg w-[113px]">
               <h3 className="md:text-4l text-2l  text-white">
                 A <span className="primary-text">2</span>
               </h3>
@@ -68,7 +68,7 @@ function About() {
               </p>
             </div>
 
-            <div className="bg-[#333333]/40 p-5 rounded-lg">
+            <div className="bg-[#333333]/40 p-5 rounded-lg w-[113px]">
               <h3 className="md:text-4l text-2l  text-white">Native</h3>
               <p>
                 <span className=" text-xl">Persian</span>
