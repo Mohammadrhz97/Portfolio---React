@@ -66,7 +66,7 @@ function Navbar() {
             <a href="#MyProjects">Projects</a>
           </li>
           <li className="p-2" onClick={() => setNav(false)}>
-            <a href="#LearningJurney">Learning</a>
+            <a href="#7">Learning</a>
           </li>
           <li className="p-2" onClick={() => setNav(false)}>
             <a href="#Contact">Contact</a>

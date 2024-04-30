@@ -7,7 +7,7 @@ function LearningJurney() {
     AOS.init({ duration: 1200 });
   });
   return (
-    <div className="py-10 bg-[#232325]" id="#LearningJurney" data-aos="zoom-in">
+    <div className="py-10 bg-[#232325]" id="LearningJurney" data-aos="zoom-in">
       <h2 className="mb-8 text-3xl text-white text-center">
         My <span>Learning jurney</span>
       </h2>

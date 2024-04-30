@@ -8,7 +8,10 @@ import HelloImage from "./HelloImage";
 function Hero() {
   const [hello, setHello] = useState(false);
   return (
-    <div className="max-w-[1200px]  h-[auto] mx-auto flex flex-col-reverse sm:flex-row justify-center items-center pt-28 p-5">
+    <div
+      className="max-w-[1200px]  h-[auto] mx-auto flex flex-col-reverse sm:flex-row justify-center items-center pt-28 p-5"
+      id="Home"
+    >
       <div className="flex flex-col my-auto mx-auto sm:items-start items-center justify-center sm:w-[420px] ">
         <p className="md:text-3xl sm:text-4xl text-xl font-bold text-gray-300">
           Hi I am Mohammad👋🏻
