@@ -2,7 +2,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Work from "./components/Work";
-import Experience from "./components/Experience";
+import LearningJurney from "./components/LearningJurney";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import AOS from "aos";
@@ -19,7 +19,7 @@ function App() {
       <Hero />
       <About />
       <Work />
-      <Experience />
+      <LearningJurney />
       <Contact />
       <Footer />
     </div>

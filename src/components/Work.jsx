@@ -11,7 +11,11 @@ function Work() {
     AOS.init({ duration: 1200 });
   });
   return (
-    <div className="py-6 max-w-[1200px] mx-auto" id="Work" data-aos="fade-up">
+    <div
+      className="py-6 max-w-[1200px] mx-auto"
+      id="MyProjects"
+      data-aos="fade-up"
+    >
       <div className="mx-auto px-4 md:px-8">
         <div className="mb-4 flex items-center justify-between gap-8">
           <div className="flex flex-col gap-4">
@@ -27,7 +31,7 @@ function Work() {
             target="_blank"
             rel="noreferrer"
             href="https://codepen.io/Mohammadrhz97/pen/KKYYWRy"
-            className="group h-48 overflow-hidden rounded-lg shadow-lg md:h-auto"
+            className="group h-auto overflow-hidden rounded-lg shadow-lg md:h-auto"
           >
             <img
               src={proj1}
@@ -40,7 +44,7 @@ function Work() {
             href="https://maptyapp12.netlify.app/"
             target="_blank"
             rel="noreferrer"
-            className="group h-48 overflow-hidden rounded-lg shadow-lg md:col-span-2 md:h-auto"
+            className="group h-auto overflow-hidden rounded-lg shadow-lg md:col-span-2 md:h-auto"
           >
             <img
               src={proj2}
@@ -53,7 +57,7 @@ function Work() {
             href="https://github.com/Mohammadrhz97/worldwise"
             target="_blank"
             rel="noreferrer"
-            className="group h-48 overflow-hidden rounded-lg shadow-lg md:col-span-2 md:h-auto"
+            className="group h-auto overflow-hidden rounded-lg shadow-lg md:col-span-2 md:h-auto"
           >
             <img
               src={proj3}
@@ -66,7 +70,7 @@ function Work() {
             href="https://github.com/Mohammadrhz97/reactQuiz"
             target="_blank"
             rel="noreferrer"
-            className="group h-48 overflow-hidden rounded-lg shadow-lg md:h-auto"
+            className="group h-auto overflow-hidden rounded-lg shadow-lg md:h-auto"
           >
             <img
               src={proj4}

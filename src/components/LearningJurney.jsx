@@ -2,12 +2,12 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function Experience() {
+function LearningJurney() {
   useEffect(function () {
     AOS.init({ duration: 1200 });
   });
   return (
-    <div className="py-10 bg-[#232325]" id="Experience" data-aos="zoom-in">
+    <div className="py-10 bg-[#232325]" id="#LearningJurney" data-aos="zoom-in">
       <h2 className="mb-8 text-3xl text-white text-center">
         My <span>Learning jurney</span>
       </h2>
@@ -65,4 +65,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default LearningJurney;

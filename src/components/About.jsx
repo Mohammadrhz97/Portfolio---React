@@ -53,26 +53,26 @@ function About() {
 
           <div className="flex flex-col sm:flex-row mt-6 items-center sm:justify-start justify-center gap-7 pl-3">
             <div className="bg-[#333333]/40 p-5 rounded-lg w-[113px]">
-              <h3 className="md:text-4l text-2l  text-white">Fluent</h3>
               <p>
                 <span className=" text-xl">English</span>
               </p>
+              <h3 className="md:text-4l text-2l  text-white">Fluent</h3>
             </div>
 
             <div className="bg-[#333333]/40 p-5 rounded-lg w-[113px]">
-              <h3 className="md:text-4l text-2l  text-white">
-                A <span className="primary-text">2</span>
-              </h3>
               <p>
                 <span className=" text-xl">Dutch</span>
               </p>
+              <h3 className="md:text-4l text-2l  text-white">
+                A <span className="primary-text">2</span>
+              </h3>
             </div>
 
             <div className="bg-[#333333]/40 p-5 rounded-lg w-[113px]">
-              <h3 className="md:text-4l text-2l  text-white">Native</h3>
               <p>
                 <span className=" text-xl">Persian</span>
               </p>
+              <h3 className="md:text-4l text-2l  text-white">Native</h3>
             </div>
           </div>
         </div>
