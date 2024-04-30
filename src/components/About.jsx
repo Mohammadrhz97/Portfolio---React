@@ -25,7 +25,7 @@ function About() {
         </div>
 
         <div>
-          <div className="p-2 w-[430px] sm:w-auto">
+          <div className="p-2 w-[380px] sm:w-auto">
             <div className="text-gray-300 my-3">
               <h3 className="text 4xl font-semibold mb-5">
                 About <span className="primary-text">Me</span>
