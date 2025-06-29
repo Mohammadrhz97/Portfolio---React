@@ -39,9 +39,9 @@ function About() {
                 the way, I discovered unexpected sources of creativity, such as
                 working as a barista for almost 8 years. Now, you might wonder
                 why I transitioned to coding. For me, it was about finding an
-                even larger canvas for my creativity. Just six months ago, I
+                even larger canvas for my creativity. Just almost a year ago, I
                 decided to learn coding to discover new ways to express my
-                creativity. It's only been six months since I started, but I'm
+                creativity. It's only been a year since I started, but I'm
                 already excited about all the possibilities ahead.
               </p>
             </div>
@@ -57,15 +57,6 @@ function About() {
                 <span className=" text-xl">English</span>
               </p>
               <h3 className="md:text-4l text-2l  text-white">Fluent</h3>
-            </div>
-
-            <div className="bg-[#333333]/40 p-5 rounded-lg w-[113px]">
-              <p>
-                <span className=" text-xl">Dutch</span>
-              </p>
-              <h3 className="md:text-4l text-2l  text-white">
-                A <span className="primary-text">2</span>
-              </h3>
             </div>
 
             <div className="bg-[#333333]/40 p-5 rounded-lg w-[113px]">

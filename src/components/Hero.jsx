@@ -33,7 +33,7 @@ function Hero() {
         </h1>
         <div className=" flex justify-center items-center" id="Hero">
           <p className="md:text-2xl sm:text-xl text-l font-bold text-gray-500">
-            I live in Netherlands
+            I live in Tehran
           </p>
         </div>
         <div className="text-5xl flex justify-start gap-10 my-7 text-purple-600">
